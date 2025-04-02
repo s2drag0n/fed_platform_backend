@@ -15,8 +15,8 @@ public class User {
 
     private String password;
 
-    private Timestamp created_at;
+    private Timestamp createdAt;
 
-    private Timestamp updated_at;
+    private Timestamp updatedAt;
 
 }

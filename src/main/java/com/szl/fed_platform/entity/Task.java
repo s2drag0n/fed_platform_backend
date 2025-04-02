@@ -1,5 +1,6 @@
 package com.szl.fed_platform.entity;
 
+import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableName;
 import lombok.Data;
 
@@ -11,23 +12,25 @@ public class Task {
 
     private Integer id;
 
-    private Integer user_id;
+    private Integer userId;
 
     private String algorithm;
 
-    private Integer dataset_id;
+    private Integer datasetId;
 
     private String params;
 
     private String status;
 
-    private Timestamp created_at;
+    private Timestamp createdAt;
 
-    private Timestamp start_at;
+    private Timestamp startedAt;
 
-    private Timestamp completed_at;
+    private Timestamp completedAt;
 
-    private String result_path;
+    private String resultPath;
 
-    private String error_log;
+    private String errorLog;
+    
+    private String taskUuid; // 新增字段
 }

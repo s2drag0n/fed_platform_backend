@@ -11,15 +11,15 @@ public class Dataset {
 
     private Integer id;
 
-    private Integer user_id;
+    private Integer userId;
 
     private String name;
 
     private String path;
 
-    private boolean is_public;
+    private boolean isPublic;
 
-    private Timestamp created_at;
+    private Timestamp createdAt;
 
     private String description;
 }
